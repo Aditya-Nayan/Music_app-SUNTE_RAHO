@@ -7,7 +7,7 @@ const currentSong = {
     title: "Abhi Kuch Dino Se",
     artist: "Mohit Chauhan",
     src: "songs.mp3/mohit-chauhan-abhi-kuch-dino-se.mp3", 
-    art: "image.png/abhi_kuch_dinose_image.png"
+    art: "image.png/abhi kuch dino se.png"
 };
 
 // ===================================

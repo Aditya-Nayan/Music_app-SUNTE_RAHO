@@ -114,6 +114,14 @@ body {
     letter-spacing: -0.5px;
 }
 
+.logo-img{
+    width: 200px;
+    height: 200px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+
+}
+
 .nav-item {
     display: flex;
     align-items: center;
@@ -294,15 +302,16 @@ body {
     opacity: 0.8;
 }
 
-* --- Genre List Styles --- */
+/* --- Genre List Styles --- */
 .genre-section {
     margin-bottom: 40px;
 }
 
+
 .genre-section h2 {
     font-size: 1.5em;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .genre-list {
@@ -312,7 +321,7 @@ body {
 }
 
 .genre-card {
-    background: linear-gradient(135deg, var(--color-sand-dune) 0%, var(--color-warm-taupe) 100%);
+    background: linear-gradient(135deg, var(--color-sand-dune) 110%, var(--color-soft-beige) 100%);
     border-radius: var(--border-radius-md);
     padding: 24px 20px;
     text-align: center;
@@ -324,7 +333,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
+    font-weight: 1600;
     font-size: 1.1em;
     color: var(--color-cocoa-brown);
 }
@@ -336,13 +345,13 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 100%);
+    background: linear-gradient(135deg, rgb(219, 212, 212) 0%, transparent 100%);
     opacity: 0;
     transition: opacity 0.3s;
 }
 
 .genre-card:hover::before {
-    opacity: 1;
+    opacity: 10;
 }
 
 .genre-card:hover {
